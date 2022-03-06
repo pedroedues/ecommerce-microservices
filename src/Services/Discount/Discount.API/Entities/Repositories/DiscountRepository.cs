@@ -1,8 +1,9 @@
-﻿using Dapper;
-using Microsoft.Extensions.Configuration;
-using Npgsql;
-using System;
+﻿using System;
 using System.Threading.Tasks;
+
+using Dapper;
+using Npgsql;
+using Microsoft.Extensions.Configuration;
 
 namespace Discount.API.Entities.Repositories
 {
