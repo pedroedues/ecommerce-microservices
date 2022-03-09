@@ -67,7 +67,7 @@ namespace Discount.API.Controllers
             var deleted = await _repository.DeleteDiscount(productName);
 
             if (!deleted)
-                NotFound();
+                return NotFound();
 
             return NoContent();
         }
