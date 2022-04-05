@@ -26,10 +26,10 @@ namespace Ordering.Infrastructure.Persistence
             {
                 new Order() 
                 {
-                    UserName = "swn", 
-                    FirstName = "Mehmet",
-                    LastName = "Ozkaya",
-                    EmailAddress = "ezozkme@gmail.com",
+                    UserName = "pedroedues", 
+                    FirstName = "Pedro",
+                    LastName = "Santos",
+                    EmailAddress = "espedrosantos@gmail.com",
                     AddressLine = "Bahcelievler",
                     Country = "Turkey", 
                     TotalPrice = 350 
