@@ -1,13 +1,13 @@
-﻿using Catalog.API.Entities;
-using Catalog.API.Entities.Repositories;
+﻿using System;
+using System.Net;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+
+using Catalog.API.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc.Abstractions;
-using System.Linq;
+using Catalog.API.Entities.Repositories;
 
 namespace Catalog.API.Controllers
 {

@@ -1,6 +1,7 @@
-﻿using Catalog.API.Entities;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using MongoDB.Driver;
+
+using Catalog.API.Entities;
 
 namespace Catalog.API.Data
 {
