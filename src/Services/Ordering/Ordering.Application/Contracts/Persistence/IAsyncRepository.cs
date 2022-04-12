@@ -1,10 +1,10 @@
-﻿using Ordering.Domain.Common;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
+using System.Linq.Expressions;
+using System.Collections.Generic;
+
+using Ordering.Domain.Common;
 
 namespace Ordering.Application.Contracts.Persistence
 {

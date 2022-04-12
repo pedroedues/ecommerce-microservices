@@ -37,8 +37,7 @@ namespace Ordering.Application.Features.Commands.UpdateOrder
 
             _mapper.Map(request.Order, orderToUpdate, typeof(CheckoutUpdateOrderViewModel), typeof(Order));
 
-            await _orderRepository.UpdateAsync(request.Id, orderToUpdate);
-            // this handle r followed an different logic. Maybe the mapping is gonna have problems beacause VM has not Id and Order has.This point was at class 96
+            await _orderRepository.UpdateAsync(orderToUpdate);
 
             _logger.LogInformation($"Order {request.Id} was succesfully updated");
 

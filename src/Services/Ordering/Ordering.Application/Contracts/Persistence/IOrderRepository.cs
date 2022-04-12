@@ -1,8 +1,8 @@
-﻿using System.Threading.Tasks;
+﻿using System.Threading;
+using System.Threading.Tasks;
 using System.Collections.Generic;
 
 using Ordering.Domain.Entities;
-using System.Threading;
 
 namespace Ordering.Application.Contracts.Persistence
 {

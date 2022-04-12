@@ -6,10 +6,10 @@ using MediatR;
 using AutoMapper;
 using Microsoft.Extensions.Logging;
 
-using Ordering.Application.Contracts.Infrastructure;
-using Ordering.Application.Contracts.Persistence;
 using Ordering.Domain.Entities;
 using Ordering.Application.Models;
+using Ordering.Application.Contracts.Infrastructure;
+using Ordering.Application.Contracts.Persistence;
 
 namespace Ordering.Application.Features.Commands.CheckoutOrder
 {
