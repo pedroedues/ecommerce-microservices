@@ -1,11 +1,12 @@
-﻿using MediatR;
-
+﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using Ordering.Application.Contracts.Persistence;
+
+using MediatR;
 using AutoMapper;
-using System;
+
+using Ordering.Application.Contracts.Persistence;
 
 namespace Ordering.Application.Features.Queries.GetOrdersList
 {
