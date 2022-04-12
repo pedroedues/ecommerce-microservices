@@ -6,9 +6,9 @@ using MediatR;
 using AutoMapper;
 using Microsoft.Extensions.Logging;
 
+using Ordering.Domain.Entities;
 using Ordering.Application.Exceptions;
 using Ordering.Application.Contracts.Persistence;
-using Ordering.Domain.Entities;
 
 namespace Ordering.Application.Features.Commands.DeleteOrder
 {

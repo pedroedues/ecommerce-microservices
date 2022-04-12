@@ -1,12 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+
+using Ordering.Application.Models;
+using Ordering.Infrastructure.Mail;
 using Ordering.Infrastructure.Persistence;
 using Ordering.Infrastructure.Repositories;
-using Microsoft.Extensions.DependencyInjection;
 using Ordering.Application.Contracts.Persistence;
-using Ordering.Application.Models;
 using Ordering.Application.Contracts.Infrastructure;
-using Ordering.Infrastructure.Mail;
 
 namespace Ordering.Infrastructure
 {
